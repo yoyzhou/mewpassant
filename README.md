@@ -4,6 +4,13 @@ Mewpassant
 
 An clean Octopress theme folked and customized from [Mewpassant][https://github.com/pagecho/Mewpassant.git].
 
+Features added
+```
+1. synax hightlight
+2. about me aside
+3. latex support with MathJax
+4. other style customizations
+```
 
 With the following steps you can install this theme on your Octopress:
 
