@@ -9,8 +9,7 @@ single: true
   {% include article.html %}
   <footer class="post-footer">
     <div class="meta">
-      {% include post/author.html %} and 
-      File under {% include post/categories.html %}
+      {% include post/author.html %} under {% include post/categories.html %}
     </div>
     {% unless page.sharing == false %}
       {% include post/sharing.html %}

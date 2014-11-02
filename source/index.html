@@ -12,15 +12,9 @@ layout: default
       </article>
     {% endfor %}
       <div class="page-navigator">
-        {% if paginator.next_page %}
-        <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-        {% endif %}
         <div class="nav-center">
         <a href="/blog/archives">Archives</a>
         </div>
-        {% if paginator.previous_page %}
-       <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-        {% endif %}
       </div>
      </div>
   </div>

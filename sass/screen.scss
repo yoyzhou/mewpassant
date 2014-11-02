@@ -4,7 +4,7 @@
  * @version 1.2
  * @link http://pagecho.com
  */
- 
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display:block
 }
@@ -522,8 +522,10 @@ td.code {
     padding:5px 8px
 }
 #archives {
-    padding:20px 0
+    padding:20px 0;
+    font-size:10px;
 }
+
 #archives h2 {
     float:left;
     font-weight:normal;
@@ -643,4 +645,10 @@ td.code {
         margin-left:70px;
         padding-left:20px
     }
+}
+
+figure.code, .gist-highlight{
+        // List styles with: pygmentize -L styles
+        // To generate the style tango: pygmentize -S tango -f html > _highlighting.scss
+        @import "highlighting";
 }

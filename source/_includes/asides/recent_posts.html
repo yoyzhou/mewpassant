@@ -1,12 +1,10 @@
-<section class="widget">
-    <form id="search" action="{{ site.simple_search }}" method="get">
-    	<input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}"/>
-    	<input type="text" name="q" results="0" class="text" placeholder="Google搜索"/>
-    </form>
-</section>
 
 <section class="widget">
-	<h3 class="widget-title">最新文章</h3>
+	<h3 class="widget-title">About Me</h3>
+	<p><code style="font-size: 14px;">Writing is the best way of learning</code></p>
+</section>
+<section class="widget">
+	<h3 class="widget-title">Recent Posts</h3>
 	<ul class="widget-list">
 		{% for post in site.posts limit: site.recent_posts %}
      	<li>
