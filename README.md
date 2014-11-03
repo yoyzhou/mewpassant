@@ -2,7 +2,7 @@ Mewpassant
 ==========
 
 
-An clean Octopress theme folked and customized from [Mewpassant][https://github.com/pagecho/Mewpassant.git].
+An clean Octopress theme folked and customized from [Mewpassant](https://github.com/pagecho/Mewpassant.git).
 
 Features added
 ```
